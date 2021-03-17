@@ -1,0 +1,2 @@
+# categorias
+customizer category Wordpress
