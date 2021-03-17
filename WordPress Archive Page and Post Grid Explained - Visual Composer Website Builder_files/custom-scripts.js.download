@@ -1,0 +1,3 @@
+(function($){if($('.vcv-side-summary').length){var sidebar=new StickySidebar('.vcv-side-summary',{topSpacing:30,minWidth:991,resizeSensor:true})}
+var bannerContainer=document.querySelector('.vcv-banner-popup-container');if(bannerContainer){var bannerPopup=bannerContainer.querySelector('.vce-popup-root-container');if(bannerPopup){bannerPopup.removeAttribute('hidden');bannerPopup.setAttribute('aria-hidden',false);var showPopup=setTimeout(function(){bannerPopup.classList.add('vcv-popup-container--visible');clearTimeout(showPopup);},1);}
+window.setTimeout(function(){$(bannerContainer).slideToggle();},1000);}})(window.jQuery)
